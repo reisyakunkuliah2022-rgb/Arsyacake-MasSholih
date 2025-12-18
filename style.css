@@ -1,0 +1,88 @@
+/* ============================= Arsya Cake - Style CSS Tema: Classic Modern Elegan Warna: Ivory/Cream, Baby Pink, Baby Blue ============================= */
+
+:root { --ivory: #fff8ee; 
+        --cream: #f6efe6; 
+        --baby-pink: #f2c1cc; 
+        --baby-blue: #cfe8f3; 
+        --text-dark: #333333; 
+        --text-soft: #666666; }
+
+{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif; }
+
+
+body 
+{ background-color: var(--ivory); 
+            color: var(--text-dark); line-height: 1.6; }
+
+/* ============================= SECTION PRODUK / CAKE ============================= */
+
+#produk { 
+    padding: 80px 10%; 
+    background-color: var(--cream); }
+
+#produk .title h3 { 
+    text-align: center; 
+    font-size: 32px; 
+    margin-bottom: 50px; 
+    color: var(--text-dark); }
+
+/* Grid Produk */
+
+#produk .card { 
+    background: #ffffff; 
+    border-radius: 20px; 
+    padding: 18px; 
+    box-shadow:}
+
+/* Gambar Cake */
+
+#produk .card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* Keterangan di bawah foto (TENGAH) */
+
+#produk .card p {
+  margin-top: 14px;
+  text-align: center; /* posisi tengah */
+  font-size: 15px;
+  color: var(--text-soft);
+}
+
+#produk .card p strong {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 4px;
+  color: var(--text-dark);
+}
+
+/* =============================
+   RESPONSIVE
+   ============================= */
+
+@media (max-width: 768px) {
+  #produk {
+    padding: 60px 6%;
+  }
+
+  #produk .title h3 {
+    font-size: 26px;
+  }
+
+  #produk .card img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  #produk .card img {
+    height: 160px;
+  }
+}

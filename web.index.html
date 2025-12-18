@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arsya Cake | Classic Modern Bakery</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --ivory:#f8f5f0;
+      --cream:#fff1dc;
+      --babypink:#f2c1cc;
+      --babyblue:#b7d9e8;
+      --dark:#3a3a3a;
+    }
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+    body{background:var(--ivory);color:var(--dark);line-height:1.7}
+    header{background:linear-gradient(90deg,var(--cream),var(--babyblue));padding:20px 80px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:1000}
+    header h1{font-size:26px;font-weight:700}
+    nav ul{list-style:none;display:flex;gap:30px}
+    nav a{text-decoration:none;color:#444;font-weight:500}
+    nav a:hover{color:#d08fa0}
+
+    .hero{height:95vh;background:linear-gradient(rgba(255,255,255,.6),rgba(255,255,255,.6)),url('brand.jpg');background-size:cover;background-position:center;display:flex;align-items:center;padding:0 80px}
+    .hero h2{font-size:48px;margin-bottom:20px}
+    .hero span{color:#d08fa0}
+    .btn{display:inline-block;padding:12px 30px;background:var(--babypink);color:white;border-radius:30px;text-decoration:none}
+
+    section{padding:80px}
+    .title{text-align:center;margin-bottom:60px}
+    .title h3{font-size:32px}
+
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px}
+    .card{background:white;border-radius:20px;overflow:hidden;box-shadow:0 10px 25px rgba(0,0,0,.08)}
+    .card img{width:100%;height:200px;object-fit:cover}
+    .card div{padding:20px}
+
+    .highlight{background:var(--cream)}
+
+    footer{background:var(--babyblue);padding:60px 80px}
+
+    .profile{display:flex;gap:30px;align-items:center;background:white;padding:30px;border-radius:20px;box-shadow:0 10px 25px rgba(0,0,0,.08);max-width:900px;margin:auto}
+    .profile img{width:180px;border-radius:20px}
+    html{scroll-behavior:smooth}
+    .fade{animation:fadeUp 1s ease}
+    @keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ARSYA CAKE by Mas Sholih</h1>
+  <nav>
+    <ul>
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#produk">KATALOG</a></li>
+      <li><a href="#pendiri">OWNER</a></li>
+      <li><a href="#kontak">KONTAK</a></li>
+    </ul>
+  </nav>
+</header>   
+
+<section class="hero" id="home">
+  <div style="display:flex;align-items:center;gap:40px;flex-wrap:wrap">
+    <div style="max-width:520px">
+      <h2>Kue Spesial untuk <span>Momen Istimewa</span></h2>
+      <p>Kami menyediakan beraneka ragam kue dengan konsep classic modern elegan seperti ue ulang tahun, kue pengantin, dan aneka ragam kue lainnya.</p>
+      <a href="#produk" class="btn">Pesan Sekarang</a>
+    </div>
+    <div>
+      <img src="c:\Users\WINDOWS\Downloads\Ungu Creative Toko Pakaian Logo.png" alt="Logo Arsya Cake" style="width:220px;border-radius:20px;box-shadow:0 10px 25px rgba(0,0,0,.15)">
+    </div>
+  </div>
+</section>
+
+<section id="produk" class="fade">
+  <div class="title"><h3>KATALOG PRODUK</h3></div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px">
+    <div class="card">
+      <img src="c:\Users\WINDOWS\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\96154ECADAE4C77A579E7CD57ECE2A4A5979FDB9\transfers\2025-51\WhatsApp Image 2025-12-18 at 10.18.06 (1).jpeg" alt="Birthday Cake" style="width:100%;border-radius:16px">
+      <p style="text-align:center;"><strong>Birthday Cake</strong><br>Kue ulang tahun custom sesuai tema</p>
+    </div>
+    <div class="card">
+      <img src="c:\Users\WINDOWS\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\96154ECADAE4C77A579E7CD57ECE2A4A5979FDB9\transfers\2025-51\WhatsApp Image 2025-12-18 at 10.18.06 (2).jpeg" alt="Birthday Cake" style="width:100%;border-radius:16px">
+      <p style="text-align:center;"><strong>Birthday Cake</strong><br>Kue ulang tahun custom sesuai tema</p>
+    </div>
+    <div class="card">
+      <img src="c:\Users\WINDOWS\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\96154ECADAE4C77A579E7CD57ECE2A4A5979FDB9\transfers\2025-51\WhatsApp Image 2025-12-18 at 10.18.06 (3).jpeg" alt="Birthday Cake" style="width:100%;border-radius:16px">
+      <p style="text-align:center;"><strong>Birthday Cake</strong><br>Kue ulang tahun custom sesuai tema</p>
+    </div>
+    <div class="card">
+      <img src="c:\Users\WINDOWS\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\96154ECADAE4C77A579E7CD57ECE2A4A5979FDB9\transfers\2025-51\WhatsApp Image 2025-12-18 at 10.18.05.jpeg" alt="Birthday Cake" style="width:100%;border-radius:16px">
+      <p style="text-align:center;"><strong>Birthday Cake</strong><br>Kue ulang tahun custom sesuai tema</p>
+    </div>
+    <div class="card">
+      <img src="c:\Users\WINDOWS\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\96154ECADAE4C77A579E7CD57ECE2A4A5979FDB9\transfers\2025-51\WhatsApp Image 2025-12-18 at 10.18.01.jpeg" alt="Birthday Cake" style="width:100%;border-radius:16px">
+      <p style="text-align:center;"><strong>Birthday Cake</strong><br>Kue ulang tahun custom sesuai tema</p>
+    </div>
+     <div class="card">
+      <img src="c:\Users\WINDOWS\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\96154ECADAE4C77A579E7CD57ECE2A4A5979FDB9\transfers\2025-51\WhatsApp Image 2025-12-18 at 10.18.01 (1).jpeg" alt="Wedding Cake" style="width:100%;border-radius:16px">
+      <p style="text-align: center;"><strong>Wedding Cake</strong><br>Desain elegan untuk hari istimewa</p>
+    </div>
+     <div class="card">
+      <img src="c:\Users\WINDOWS\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\96154ECADAE4C77A579E7CD57ECE2A4A5979FDB9\transfers\2025-51\WhatsApp Image 2025-12-18 at 10.18.03.jpeg" alt="c:\Users\WINDOWS\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\96154ECADAE4C77A579E7CD57ECE2A4A5979FDB9\transfers\2025-51\WhatsApp Image 2025-12-18 at 10.18.02.jpeg" style="width:100%;border-radius:16px">
+      <p style="text-align: center;"><strong>Wedding Cake</strong><br>Desain elegan untuk hari istimewa</p>
+    </div>
+     <div class="card">
+      <img src="c:\Users\WINDOWS\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\96154ECADAE4C77A579E7CD57ECE2A4A5979FDB9\transfers\2025-51\WhatsApp Image 2025-12-18 at 10.18.05 (2).jpeg" alt="Wedding Cake" style="width:100%;border-radius:16px">
+      <p style="text-align: center;"><strong>Wedding Cake</strong><br>Desain elegan untuk hari istimewa</p>
+    </div>
+     <div class="card">
+      <img src="c:\Users\WINDOWS\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\96154ECADAE4C77A579E7CD57ECE2A4A5979FDB9\transfers\2025-51\WhatsApp Image 2025-12-18 at 10.18.05 (3).jpeg" alt="Wedding Cake" style="width:100%;border-radius:16px">
+      <p style="text-align: center;"><strong>Wedding Cake</strong><br>Desain elegan untuk hari istimewa</p>
+    </div>
+     <div class="card">
+      <img src="c:\Users\WINDOWS\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\96154ECADAE4C77A579E7CD57ECE2A4A5979FDB9\transfers\2025-51\WhatsApp Image 2025-12-18 at 10.18.02.jpeg" alt="Wedding Cake" style="width:100%;border-radius:16px">
+      <p style="text-align: center;"><strong>Wedding Cake</strong><br>Desain elegan untuk hari istimewa</p>
+    </div>
+    <div class="card">
+      <img src="c:\Users\WINDOWS\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\96154ECADAE4C77A579E7CD57ECE2A4A5979FDB9\transfers\2025-51\WhatsApp Image 2025-12-18 at 10.18.01 (2).jpeg" alt="Mini Cake" style="width:100%;border-radius:16px">
+      <p style="text-align: center;"><strong>Custom Cake</strong><br>Cocok untuk hadiah & hampers</p>
+    </div>
+    <div class="card">
+      <img src="c:\Users\WINDOWS\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\96154ECADAE4C77A579E7CD57ECE2A4A5979FDB9\transfers\2025-51\WhatsApp Image 2025-12-18 at 10.18.03 (1).jpeg" alt="Cupcake" style="width:100%;border-radius:16px">
+      <p style="text-align: center;"><strong>Custom Cake</strong><br>Manis, cantik, dan lezat</p>
+    </div>
+    <div class="card">
+      <img src="c:\Users\WINDOWS\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\96154ECADAE4C77A579E7CD57ECE2A4A5979FDB9\transfers\2025-51\WhatsApp Image 2025-12-18 at 10.18.04 (1).jpeg" alt="Cupcake" style="width:100%;border-radius:16px">
+      <p style="text-align: center;"><strong>Custom Cake</strong><br>Manis, cantik, dan lezat</p>
+    </div>
+    <div class="card">
+      <img src="c:\Users\WINDOWS\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\96154ECADAE4C77A579E7CD57ECE2A4A5979FDB9\transfers\2025-51\WhatsApp Image 2025-12-18 at 10.18.04 (2).jpeg" alt="Cupcake" style="width:100%;border-radius:16px">
+      <p style="text-align: center;"><strong>Custom Cake</strong><br>Manis, cantik, dan lezat</p>
+    </div>
+    <div class="card">
+      <img src="c:\Users\WINDOWS\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\96154ECADAE4C77A579E7CD57ECE2A4A5979FDB9\transfers\2025-51\WhatsApp Image 2025-12-18 at 10.18.06.jpeg" alt="Cupcake" style="width:100%;border-radius:16px">
+      <p style="text-align: center;"><strong>Custom Cake</strong><br>Manis, cantik, dan lezat</p>
+    </div>
+  </div>
+</section>
+
+<section class="highlight" id="pendiri">
+  <div class="title"><h3>OWNER</h3></div>
+  <div class="profile">
+    <img src="c:\Users\WINDOWS\Downloads\WhatsApp Image 2025-12-18 at 14.15.32.jpeg" alt="Owener Arsya Cake">
+    <div>
+      <h4>Mas Sholih</h4>
+      <p>Owner Arsya Cake yang berkomitmen menghadirkan kue berkualitas premium dengan cita rasa terbaik dan tampilan elegan untuk setiap momen spesial pelanggan.</p>
+    </div>
+  </div>
+</section>
+
+<section id="kontak" class="fade">
+  <div class="title"><h3>KONTAK & PEMESANAN</h3></div>
+  <div class="profile">
+    <div>
+      <form onsubmit="sendWA();return false">
+        <p><strong>Form Pemesanan</strong></p>
+        <input id="nama" placeholder="Nama" style="width:100%;padding:10px;margin:8px 0">
+        <input id="pesan" placeholder="Pesanan (jenis kue, tanggal)" style="width:100%;padding:10px;margin:8px 0">
+        <button class="btn" type="submit">Pesan via WhatsApp</button>
+      </form>
+      <hr style="margin:15px 0">
+      <p><strong>WhatsApp:</strong> 08228093****</p>
+      <p><strong>Facebook:</strong> Mas Sholih</p>
+      <p><strong>Alamat:</strong> Indonesia</p>
+      <p><strong>Lokasi Toko:</strong><br>
+        <a href="https://maps.app.goo.gl/d5CHfpLAM1gRGakQ6?g_st=ac" target="_blank" style="color:#d08fa0;text-decoration:none;font-weight:500">Lihat lokasi Arsya Cake di Google Maps</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="highlight">
+  <div class="title"><h3>PEMBUAT WEBSITE</h3></div>
+  <div class="profile">
+    <img src="c:\Users\WINDOWS\Downloads\WhatsApp Image 2025-12-18 at 09.41.48.jpeg" alt="Pembuat Website">
+    <div>
+      <h4>Reisya Fitriananda</h4>
+      <p>Mahasiswa Program Studi <strong>Ilmu Perpustakaan dan Informasi Islam (S1)</strong>. Website ini dibuat sebagai media pembelajaran dan penerapan pengelolaan informasi digital berbasis web.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p style="text-align:center">© 2025 Arsya Cake | By Mas Sholih</p>
+</footer>
+
+<script>
+function sendWA(){
+  let n=document.getElementById('nama').value;
+  let p=document.getElementById('pesan').value;
+  let url=`https://wa.me/628XXXXXXXXX?text=Halo,%20saya%20${n}%20ingin%20memesan:%20${p}`;
+  window.open(url,'_blank');
+}
+</script>
+</body>
+</html>
